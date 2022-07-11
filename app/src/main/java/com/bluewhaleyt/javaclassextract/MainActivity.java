@@ -46,7 +46,8 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.lang.reflect.Type;;
+import java.lang.reflect.Type;;
+
 
 public class MainActivity extends AppCompatActivity {
 	
@@ -121,27 +122,38 @@ public class MainActivity extends AppCompatActivity {
 			if(cls != null) {
 				String text = "// Extracted class: " + cls.getName();
 				
-				text += "\n\n// Annotations (if it's empty means there's nothing)";
+				if(cls.getAnnotations().length != 0){
+					text += "\n\n// Annotations";
+				}
 				for (Annotation a : cls.getDeclaredAnnotations()) {
 					text += "\n\n" + a.toString();
 				}
-								
-				text += "\n\n// Fields (if it's empty means there's nothing)";
+				
+				if(cls.getFields().length != 0){
+					text += "\n\n// Fields";
+				}
 				for (Field f : cls.getDeclaredFields()) {
 					text += "\n\n" + f.toString();
 				}
-								
-				text += "\n\n// Constructors (if it's empty means there's nothing)";
+				
+				if(cls.getConstructors().length != 0){
+					text += "\n\n// Constructors";
+				}
 				for (Constructor c : cls.getDeclaredConstructors()) {
 					text += "\n\n" + c.toString();
 				}
-				
-				text += "\n\n// Methods (if it's empty means there's nothing)";
+
+				if(cls.getMethods().length != 0){
+					text += "\n\n// Methods";
+				}
 				for (Method m : cls.getDeclaredMethods()) {
 					text += "\n\n" + m.toString();
+
 				}
-								
-				text += "\n\n// Classes (if it's empty means there's nothing)";
+				
+				if(cls.getClasses().length != 0){
+					text += "\n\n// Classes";
+				}
 				for (Class c : cls.getDeclaredClasses()) {
 					text += "\n\n" + c.toString();
 				}
@@ -205,4 +217,4 @@ public class MainActivity extends AppCompatActivity {
 	public int getDisplayHeightPixels() {
 		return getResources().getDisplayMetrics().heightPixels;
 	}
-}
+}
