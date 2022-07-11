@@ -122,28 +122,28 @@ public class MainActivity extends AppCompatActivity {
 			if(cls != null) {
 				String text = "// Extracted class: " + cls.getName();
 				
-				if(cls.getAnnotations().length != 0){
+				if(cls.getDeclaredAnnotations().length != 0){
 					text += "\n\n// Annotations";
 				}
 				for (Annotation a : cls.getDeclaredAnnotations()) {
 					text += "\n\n" + a.toString();
 				}
 				
-				if(cls.getFields().length != 0){
+				if(cls.getDeclaredFields().length != 0){
 					text += "\n\n// Fields";
 				}
 				for (Field f : cls.getDeclaredFields()) {
 					text += "\n\n" + f.toString();
 				}
 				
-				if(cls.getConstructors().length != 0){
+				if(cls.getDeclaredConstructors().length != 0){
 					text += "\n\n// Constructors";
 				}
 				for (Constructor c : cls.getDeclaredConstructors()) {
 					text += "\n\n" + c.toString();
 				}
 
-				if(cls.getMethods().length != 0){
+				if(cls.getDeclaredMethods().length != 0){
 					text += "\n\n// Methods";
 				}
 				for (Method m : cls.getDeclaredMethods()) {
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
 
 				}
 				
-				if(cls.getClasses().length != 0){
+				if(cls.getDeclaredClasses().length != 0){
 					text += "\n\n// Classes";
 				}
 				for (Class c : cls.getDeclaredClasses()) {
