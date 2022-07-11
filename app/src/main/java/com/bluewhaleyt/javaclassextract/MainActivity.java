@@ -148,7 +148,6 @@ public class MainActivity extends AppCompatActivity {
 				}
 				for (Method m : cls.getDeclaredMethods()) {
 					text += "\n\n" + m.toString();
-
 				}
 				
 				if(cls.getDeclaredClasses().length != 0){
