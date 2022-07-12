@@ -1,14 +1,17 @@
+[CodeStudio]: https://github.com/BlueWhaleYT/CodeStudio
+
 # JavaClassExtract
-A simple Java class extract tool for Android, made with Sketchware Pro.
-A lite version extracted from CodeStudio.
+<img src="http://forthebadge.com/images/badges/built-for-android.svg" />
+A simple Java class extract tool for Android, made with [Sketchware Pro](https://github.com/Sketchware-Pro/Sketchware-Pro).
+A lite version extracted from [CodeStudio].
 
 ## Screenshots
-Lite version - uploaded to Sketchhub
+Lite version - uploaded to [Sketchhub](https://web.sketchub.in/p/15203)
 <div style="overflow: hidden;">
 <img src="/screenshots/JavaClassExtract_screenshot01.jpg" alt="General Preview" style="border-radius: 4px;" width="40%" align="bottom" />
 <img src="/screenshots/JavaClassExtract_screenshot02.jpg" alt="General Preview" style="border-radius: 4px;" width="40%" align="bottom" />
 </div>
-Full version - TextMate for CodeStudio
+Full version - TextMate for [CodeStudio]
 <br>
 You can change it to TextMate theme by yourself.
 <div style="overflow: hidden;">
