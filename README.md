@@ -9,9 +9,14 @@ Lite version - uploaded to [Sketchhub](https://web.sketchub.in/p/15203)
 <img src="/screenshots/JavaClassExtract_screenshot01.jpg" alt="General Preview" style="border-radius: 4px;" width="40%" align="bottom" />
 <img src="/screenshots/JavaClassExtract_screenshot02.jpg" alt="General Preview" style="border-radius: 4px;" width="40%" align="bottom" />
 </div>
+<p>
 Full version - TextMate for <a href="https://github.com/BlueWhaleYT/CodeStudio">CodeStudio</a>
 <br>
-You can change it to TextMate theme by yourself.
+You can change it to TextMate theme by yourself.<br>
+Here's a quick preview after switching to TextMate.<br>
+Left: Material Palenight<br>
+Right: Material Light
+<p>
 <div style="overflow: hidden;">
 <img src="/screenshots/Codestudio_textmate_material_palenight.jpg" alt="General Preview" style="border-radius: 4px;" width="40%" align="bottom" />
 <img src="/screenshots/Codestudio_textmate_material_light.jpg" alt="General Preview" style="border-radius: 4px;" width="40%" align="bottom" />
