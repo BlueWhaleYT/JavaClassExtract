@@ -25,4 +25,7 @@ dependencies {
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
 	implementation 'androidx.appcompat:appcompat:1.2.0'
 	implementation 'com.google.android.material:material:1.4.0'
+	// sora editor
+	implementation 'io.github.Rosemoe.sora-editor:editor:0.14.0'
+	implementation 'io.github.Rosemoe.sora-editor:language-textmate:0.14.0'
 }
